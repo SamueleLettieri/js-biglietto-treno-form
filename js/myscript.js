@@ -31,7 +31,7 @@ sending.addEventListener("click", function(){
             document.getElementById("ticket-price").innerHTML = message + normalRunning.toFixed(2) + "€";
         }
     } 
-});
+}); 
   
 
 
