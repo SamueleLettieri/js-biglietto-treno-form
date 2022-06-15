@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    background-image: url(../img/esercizio\ boolean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ 
+ 
+ .ms_op{
+    background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ .ms_op-b{
+    background-color: rgba(255, 255, 255, 0.8);
+ }
+ 
+ .ms_j-b{
+    justify-content: space-between;
+ }
+ 
+ .ms_t-r{
+    color: rgb(255, 0, 0);
+ }
+  
+ .ms_t-p{
+    color:  rgb(27, 114, 0);
+ }
+ 
+ .ms_b-w{
+    background-color: rgb(255, 255, 255);
+ }
