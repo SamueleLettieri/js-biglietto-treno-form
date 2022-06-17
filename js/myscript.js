@@ -22,7 +22,7 @@ sending.addEventListener("click", function(){
             price = normalRunning - normalRunning * 15 / 100;
             message = "Essendo minorenne ha diritto allo sconto del 15% del prezzo del biglietto: ";
             document.getElementById("ticket-price").innerHTML =  message +  price.toFixed(2) + "€";
-        } else if (yourAge > 65) {
+        } else if (yourAge => 65) {
             price = normalRunning - normalRunning * 35 / 100;
             message = "Essendo over 65 ha diritto allo sconto del 35% del prezzo del biglietto: ";
             document.getElementById("ticket-price").innerHTML =  message +  price.toFixed(2) + "€";
